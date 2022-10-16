@@ -1,0 +1,26 @@
+.box {
+
+    width: 550px;
+    text-align: center;
+    padding: 10%;
+    margin: auto;
+
+
+}
+
+.rawabiavatar {
+
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    padding-top: 10%;
+
+}
+
+
+.socialsharing{
+
+    list-style-type: none;
+
+
+}

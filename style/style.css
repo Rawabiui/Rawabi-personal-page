@@ -1,0 +1,123 @@
+header {
+
+    background-color: lightcyan;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 200px;
+
+}
+
+nav {
+
+    font-size: large;
+    font-size: 1em;
+    padding-left: 20px;
+}
+
+
+section {
+
+    padding: 100px 10px;
+}
+
+.title {
+
+    display: flex;
+    justify-content: center;
+    font-size: 2.2em;
+    color: blueviolet;
+    font-weight: 800;
+
+
+
+}
+
+.cardcontent {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+
+
+}
+
+.card {
+    background-color: rgb(255, 246, 255);
+    width: 21em;
+    box-shadow: 0 5px 20px rgba(248, 178, 248, 0.767);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 25px;
+
+
+}
+
+
+.cards {
+    padding-bottom: 25px;
+}
+
+.icon {
+    color: violet;
+    font-size: 5em;
+}
+
+.botton {
+
+    color: blueviolet;
+    border-radius: 10px;
+    border: 5px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgba(241, 192, 241, 0.767);
+    margin: 20px 10px;
+    padding: 12px 0;
+    width: 200px;
+
+}
+
+
+.grid {
+    margin: 100px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 2%
+
+    
+}
+
+.grid figure {
+    border: none;
+    border-radius: 10px;
+
+    text-align: center;
+    width: 350px;
+
+
+}
+
+
+.grid figure img {
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+.text {
+    padding: 0 20px 20px;
+}
+
+.footerquotes {
+
+    margin: 100px;
+    width: min(60%, 75rem);
+    display: grid;
+    gap: 3em;
+
+
+}
